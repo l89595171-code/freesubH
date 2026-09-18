@@ -53,16 +53,16 @@ except ImportError as e:
 # ══════════════════════════════════════════════════════════════════
 
 SOURCE_URLS = [
-    "https://github.com/Au1rxx/free-vpn-subscriptions/raw/main/output/by-country/v2ray-base64-TW.txt",
-    "https://raw.githubusercontent.com/ShatakVPN/ConfigForge-V2Ray/main/configs/all.txt",
-    "https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/base64/mix",
-    "https://raw.githubusercontent.com/10ium/telegram-configs-collector/main/protocols/hysteria",
-    "https://raw.githubusercontent.com/10ium/telegram-configs-collector/main/security/tls",
-    "https://github.com/Au1rxx/free-vpn-subscriptions/raw/main/output/v2ray-base64.txt",
-    "https://raw.githubusercontent.com/freefq/free/master/v2",
-    "https://www.ermao.net/sub/v2ray/ermao.net",
-    "https://raw.githubusercontent.com/ishalumi/proxy-node-collector/main/output/nodes_base64.txt",
-    "https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/base64.txt",
+    "https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/All_Configs_Sub.txt",
+    "https://raw.githubusercontent.com/yebekhe/TVC/main/subscriptions/xray/base64",
+    "https://raw.githubusercontent.com/mft01/Free-V2ray-Config/main/All_Configs_Sub.txt",
+    "https://raw.githubusercontent.com/v2ray-daily/v2ray-daily/main/v2ray.txt",
+    "https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber/main/v2ray.txt",
+    "https://raw.githubusercontent.com/yebekhe/TVC/main/subscriptions/clash/meta.yaml",
+    "https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml",
+    "https://raw.githubusercontent.com/Lonelly/v2ray/main/clash.yaml",
+    "https://raw.githubusercontent.com/yebekhe/TVC/main/subscriptions/xray/hysteria2",
+    "https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/Splitted-By-Protocols/hysteria2.txt",
     "https://raw.githubusercontent.com/PuddinCat/BestClash/main/proxies.yaml",
     "https://raw.githubusercontent.com/twj0/subseek/refs/heads/master/data/sub_github.txt",
 ]
