@@ -6,69 +6,93 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.25.30.10",
+      "server": "104.21.70.228",
       "server_port": 443,
-      "uuid": "807cd1e0-f4ce-4785-b7a3-cde0c1614b8d",
+      "uuid": "b8d8a5b0-867f-4491-b4e4-30edc04bb10e",
       "tls": {
         "enabled": true,
-        "server_name": "de14.69lover.my",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "u.srilankangrill.online",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/api/v2/6c316c769ad6853c/stream",
+        "path": "/",
         "headers": {
-          "Host": "de14.69lover.my"
+          "Host": "u.srilankangrill.online"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 02 - xiaohe",
-      "server": "104.25.30.10",
+      "server": "104.21.70.228",
       "server_port": 443,
-      "uuid": "807cd1e0-f4ce-4785-b7a3-cde0c1614b8d",
+      "uuid": "44eae030-290b-4083-8102-6f8bab05701b",
       "tls": {
         "enabled": true,
-        "server_name": "de14.69lover.my",
+        "server_name": "cfvvv-ev1.pages.dev",
         "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/api/v2/6c316c769ad6853c/stream",
+        "path": "/",
         "headers": {
-          "Host": "de14.69lover.my"
+          "Host": "cfvvv-ev1.pages.dev"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 03 - xiaohe",
-      "server": "104.25.30.10",
+      "server": "104.21.70.228",
       "server_port": 443,
-      "uuid": "807cd1e0-f4ce-4785-b7a3-cde0c1614b8d",
+      "uuid": "44eae030-290b-4083-8102-6f8bab05701b",
       "tls": {
         "enabled": true,
-        "server_name": "de14.69lover.my",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "cfvvv-ev1.pages.dev",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/api/v2/6c316c769ad6853c/stream",
+        "path": "/",
         "headers": {
-          "Host": "de14.69lover.my"
+          "Host": "cfvvv-ev1.pages.dev"
         }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 其他地区 (Other) 04 - xiaohe",
+      "server": "104.21.70.228",
+      "server_port": 443,
+      "uuid": "44eae030-290b-4083-8102-6f8bab05701b",
+      "tls": {
+        "enabled": true,
+        "server_name": "cfvvv-ev1.pages.dev",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "cfvvv-ev1.pages.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 其他地区 (Other) 05 - xiaohe",
+      "server": "ccs2g.pai50288.uk",
+      "server_port": 443,
+      "uuid": "8be461cb-a0df-47cf-bc0d-4d9e6a22fa74",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccs2g.pai50288.uk",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/pai50288"
       }
     },
     {
@@ -78,7 +102,9 @@
         "auto",
         "🌐 其他地区 (Other) 01 - xiaohe",
         "🌐 其他地区 (Other) 02 - xiaohe",
-        "🌐 其他地区 (Other) 03 - xiaohe"
+        "🌐 其他地区 (Other) 03 - xiaohe",
+        "🌐 其他地区 (Other) 04 - xiaohe",
+        "🌐 其他地区 (Other) 05 - xiaohe"
       ]
     },
     {
@@ -87,7 +113,9 @@
       "outbounds": [
         "🌐 其他地区 (Other) 01 - xiaohe",
         "🌐 其他地区 (Other) 02 - xiaohe",
-        "🌐 其他地区 (Other) 03 - xiaohe"
+        "🌐 其他地区 (Other) 03 - xiaohe",
+        "🌐 其他地区 (Other) 04 - xiaohe",
+        "🌐 其他地区 (Other) 05 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
