@@ -53,28 +53,17 @@ except ImportError as e:
 # ══════════════════════════════════════════════════════════════════
 
 SOURCE_URLS = [
-    # --- 综合/高频聚合类源（1-6小时更新） ---
-    "https://raw.githubusercontent.com/mft01/Free-V2ray-Config/main/All_Configs_Sub.txt",
-    "https://raw.githubusercontent.com/yebekhe/TVC/main/subscriptions/xray/base64",
-    "https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/All_Configs_Sub.txt",
-    "https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber/main/v2ray.txt",
-    "https://raw.githubusercontent.com/freefq/free/master/v2",
-    "https://raw.githubusercontent.com/tianya01/Free-V2ray/main/v2ray.txt",
-    "https://raw.githubusercontent.com/v2ray-daily/v2ray-daily/main/v2ray.txt",
-    
-    # --- Clash / Meta YAML 格式源 ---
-    "https://raw.githubusercontent.com/yebekhe/TVC/main/subscriptions/clash/meta.yaml",
-    "https://raw.githubusercontent.com/PuddinCat/BestClash/main/proxies.yaml",
-    "https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml",
-    
-    # --- Hysteria / Hysteria2 高速协议专门源 ---
-    "https://raw.githubusercontent.com/yebekhe/TVC/main/subscriptions/xray/hysteria2",
-    "https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/Splitted-By-Protocols/hysteria2.txt",
-    "https://raw.githubusercontent.com/10ium/telegram-configs-collector/main/protocols/hysteria",
-    
-    # --- 爬虫/自动检索源 ---
+    # 依然稳定且抓到大量节点的源
+    "https://raw.githubusercontent.com/ishalumi/proxy-node-collector/main/output/nodes_base64.txt",
     "https://raw.githubusercontent.com/twj0/subseek/refs/heads/master/data/sub_github.txt",
-    "https://raw.githubusercontent.com/ishalumi/proxy-node-collector/main/output/nodes_base64.txt"
+    "https://raw.githubusercontent.com/10ium/telegram-configs-collector/main/protocols/hysteria",
+    "https://raw.githubusercontent.com/freefq/free/master/v2",
+    
+    # 补充目前存活的 Base64 纯文本源（避免 YAML 格式）
+    "https://raw.githubusercontent.com/ShatakVPN/ConfigForge-V2Ray/main/configs/all.txt",
+    "https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/base64/mix",
+    "https://raw.githubusercontent.com/10ium/telegram-configs-collector/main/security/tls",
+    "https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/base64.txt"
 ]
 
 OUTPUT_DIR = "output"
