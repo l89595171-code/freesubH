@@ -27,137 +27,20 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: chrome
 - name: 🇬🇷 希腊 (Greece) 03 - xiaohe
-  server: 91.186.218.227
-  port: 4443
+  server: 38.54.29.210
+  port: 2053
   udp: true
   type: vless
-  uuid: c4aba2a4-ce37-4133-a3bb-7fe23a21ea95
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
   tls: true
-  servername: 7nnoiou0z.3xn99hzq2sh7iekktpkeq7rofs3qc8iohrqs4pb9p.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: safari
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 7nnoiou0z.3xn99hzq2sh7iekktpkeq7rofs3qc8iohrqs4pb9p.workers.dev
-- name: 🇬🇷 希腊 (Greece) 04 - xiaohe
-  server: 91.186.218.227
-  port: 4443
-  udp: true
-  type: vless
-  uuid: 1648bb70-bd3f-410a-aa3c-ae26b05cef2e
-  tls: true
-  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-- name: 🇬🇷 希腊 (Greece) 05 - xiaohe
-  server: 91.186.218.227
-  port: 4443
-  udp: true
-  type: vless
-  uuid: deb1ae4f-a6b3-4ba3-8fb7-b18a05252928
-  tls: true
-  servername: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
+  servername: kkkk-xcd.pages.dev
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /@Marisa_kristi
+    path: /?ed=2048
     headers:
-      Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
-- name: 🇬🇷 希腊 (Greece) 06 - xiaohe
-  server: 91.186.218.227
-  port: 4443
-  udp: true
-  type: vless
-  uuid: fbd4f88e-0a06-4fab-be8b-798cc2b72d94
-  tls: true
-  servername: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
-- name: 🇬🇷 希腊 (Greece) 07 - xiaohe
-  server: 91.186.218.227
-  port: 4443
-  udp: true
-  type: vless
-  uuid: 686c3936-3fac-42d2-96ee-ccbf873df459
-  tls: true
-  servername: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-- name: 🇬🇷 希腊 (Greece) 08 - xiaohe
-  server: 91.186.218.227
-  port: 4443
-  udp: true
-  type: vless
-  uuid: 09d124dc-2b50-423a-81d2-4443ea159bfc
-  tls: true
-  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-- name: 🇬🇷 希腊 (Greece) 09 - xiaohe
-  server: 91.186.218.227
-  port: 4443
-  udp: true
-  type: vless
-  uuid: 60dca33b-7804-41da-b158-ecf71d95ff85
-  tls: true
-  servername: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-- name: 🇬🇷 希腊 (Greece) 10 - xiaohe
-  server: 91.186.218.227
-  port: 4443
-  udp: true
-  type: vless
-  uuid: b98eab2e-ceed-42fa-bf77-442d81de0c83
-  tls: true
-  servername: 5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev
-- name: 🇬🇷 希腊 (Greece) 11 - xiaohe
-  server: 91.186.218.227
-  port: 4443
-  udp: true
-  type: vless
-  uuid: df7984c1-44df-451d-8af5-a8d04d53870f
-  tls: true
-  servername: mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev
+      Host: kkkk-xcd.pages.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -166,14 +49,6 @@ proxy-groups:
   - 🇬🇷 希腊 (Greece) 01 - xiaohe
   - 🇬🇷 希腊 (Greece) 02 - xiaohe
   - 🇬🇷 希腊 (Greece) 03 - xiaohe
-  - 🇬🇷 希腊 (Greece) 04 - xiaohe
-  - 🇬🇷 希腊 (Greece) 05 - xiaohe
-  - 🇬🇷 希腊 (Greece) 06 - xiaohe
-  - 🇬🇷 希腊 (Greece) 07 - xiaohe
-  - 🇬🇷 希腊 (Greece) 08 - xiaohe
-  - 🇬🇷 希腊 (Greece) 09 - xiaohe
-  - 🇬🇷 希腊 (Greece) 10 - xiaohe
-  - 🇬🇷 希腊 (Greece) 11 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -182,13 +57,5 @@ proxy-groups:
   - 🇬🇷 希腊 (Greece) 01 - xiaohe
   - 🇬🇷 希腊 (Greece) 02 - xiaohe
   - 🇬🇷 希腊 (Greece) 03 - xiaohe
-  - 🇬🇷 希腊 (Greece) 04 - xiaohe
-  - 🇬🇷 希腊 (Greece) 05 - xiaohe
-  - 🇬🇷 希腊 (Greece) 06 - xiaohe
-  - 🇬🇷 希腊 (Greece) 07 - xiaohe
-  - 🇬🇷 希腊 (Greece) 08 - xiaohe
-  - 🇬🇷 希腊 (Greece) 09 - xiaohe
-  - 🇬🇷 希腊 (Greece) 10 - xiaohe
-  - 🇬🇷 希腊 (Greece) 11 - xiaohe
 rules:
 - MATCH,PROXIES
