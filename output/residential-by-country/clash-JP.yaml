@@ -4,32 +4,32 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇴🇲 OM 01 - xiaohe
-  server: 146.70.37.253
+- name: 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
+  server: 80.96.156.58
   port: 443
   udp: true
   type: vless
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: true
-  servername: kkkk-xcd.pages.dev
+  servername: cdn8848.776676.xyz
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /tools/seller?ed=2560
     headers:
-      Host: kkkk-xcd.pages.dev
+      Host: cdn8848.776676.xyz
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇴🇲 OM 01 - xiaohe
+  - 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇴🇲 OM 01 - xiaohe
+  - 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES

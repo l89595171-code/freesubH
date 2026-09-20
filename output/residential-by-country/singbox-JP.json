@@ -5,13 +5,13 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇴🇲 OM 01 - xiaohe",
-      "server": "146.70.37.253",
+      "tag": "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
+      "server": "80.96.156.58",
       "server_port": 443,
-      "uuid": "b940be1b-3998-45d2-bf7b-06e7b6c4987a",
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "tls": {
         "enabled": true,
-        "server_name": "kkkk-xcd.pages.dev",
+        "server_name": "cdn8848.776676.xyz",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -20,9 +20,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/?ed=2048",
+        "path": "/tools/seller?ed=2560",
         "headers": {
-          "Host": "kkkk-xcd.pages.dev"
+          "Host": "cdn8848.776676.xyz"
         }
       }
     },
@@ -31,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇴🇲 OM 01 - xiaohe"
+        "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇴🇲 OM 01 - xiaohe"
+        "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

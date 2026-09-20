@@ -5,20 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇶 IQ 01 - xiaohe
-  server: 172.67.156.87
+  server: 104.21.58.246
   port: 443
   udp: true
   type: vless
-  uuid: 4ccf70f9-7632-4b5a-9557-10d2dd347bb2
+  uuid: 709b1cf4-a386-4cbf-bcf4-46f03c4788a8
   tls: true
-  servername: tO6R63-kkCHIgHQM2.vXZ0dDUq7to7SU0cdQF.wOrKERS.Dev
+  servername: q2-phbest7v2a8iuowpr.g0xigfh41wwnv39y-b3rzmht.workers.dev
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /vl/VEyizgqHTVJUF3AcZhYc7j0dW3wCfGYE?ed=2560
+    path: /vl/q191ZuirdeahB0QuL?ed=2560
     headers:
-      Host: to6r63-kkchighqm2.vxz0dduq7to7su0cdqf.workers.dev
+      Host: q2-phbest7v2a8iuowpr.g0xigfh41wwnv39y-b3rzmht.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
