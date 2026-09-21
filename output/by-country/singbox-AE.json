@@ -8,7 +8,7 @@
       "tag": "🇦🇪 阿联酋 (UAE) 01 - xiaohe",
       "server": "31.58.181.88",
       "server_port": 8443,
-      "uuid": "ab3a17ae-4d4f-45ff-a05f-4d27b7f97838",
+      "uuid": "d0da19f1-fb05-488e-99c2-262389b3537b",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -33,7 +33,7 @@
       "tls": {
         "enabled": true,
         "server_name": "hy2.aspidnet.xyz",
-        "insecure": false
+        "insecure": true
       },
       "obfs": {
         "type": "salamander",
@@ -52,7 +52,7 @@
         "server_name": "dzen.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "edge"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -76,11 +76,14 @@
     {
       "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 05 - xiaohe",
-      "server": "uae.unixzone.us",
+      "server": "84.235.244.108",
       "server_port": 22573,
       "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
       "transport": {
-        "type": "ws"
+        "type": "ws",
+        "headers": {
+          "Host": "uae.unixzone.us"
+        }
       }
     },
     {
