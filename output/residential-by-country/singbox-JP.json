@@ -6,19 +6,19 @@
     {
       "type": "vless",
       "tag": "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
-      "server": "203.137.165.164",
-      "server_port": 57554,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "server": "210.152.85.154",
+      "server_port": 19364,
+      "uuid": "342200c2-4bb1-4906-8615-3aea59e178a0",
       "tls": {
         "enabled": true,
-        "server_name": "cdn8848.776676.xyz",
+        "server_name": "wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev",
         "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/p/docs/soft?ed=2560fp=chrome",
+        "path": "/@Marisa_kristi",
         "headers": {
-          "Host": "cdn8848.776676.xyz"
+          "Host": "wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev"
         }
       }
     },
