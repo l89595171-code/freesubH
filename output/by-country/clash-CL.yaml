@@ -54,8 +54,6 @@ proxies:
   network: ws
   ws-opts:
     path: /platform109
-    headers:
-      Host: platform109.halalkhor.info
 proxy-groups:
 - name: PROXIES
   type: select
