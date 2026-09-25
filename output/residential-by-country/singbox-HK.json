@@ -4,19 +4,15 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇲🇽 墨西哥 (Mexico) 01 - xiaohe",
-      "server": "45.134.9.133",
-      "server_port": 8443,
-      "uuid": "a6d20e79-d326-42c1-bc20-f4cecc6dc42d",
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
+      "server": "6dd24f6b-tm96o0-tnggms-6gn6.hk3.hyhuawei.com",
+      "server_port": 443,
+      "password": "c12f73f6-e8c7-11ed-9246-f23c9164ca5d",
       "tls": {
         "enabled": true,
-        "server_name": "ul-mexico1.09vpn.com",
+        "server_name": "6dd24f6b-tm96o0-tnggms-6gn6.hk3.hyhuawei.com",
         "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vless/"
       }
     },
     {
@@ -24,14 +20,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇽 墨西哥 (Mexico) 01 - xiaohe"
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇽 墨西哥 (Mexico) 01 - xiaohe"
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
