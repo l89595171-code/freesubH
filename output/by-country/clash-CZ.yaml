@@ -1,0 +1,46 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+proxies:
+- name: 🇨🇿 捷克 (Czech) 01 - xiaohe
+  server: 104.17.148.22
+  port: 80
+  udp: true
+  type: vless
+  uuid: 63f1ef69-92fd-427a-b3e4-98ffddf81ac6
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: young-rice-749e.heliy78750.workers.dev
+- name: 🇨🇿 捷克 (Czech) 02 - xiaohe
+  server: 188.124.59.145
+  port: 18443
+  udp: true
+  type: vless
+  uuid: 8df7343e-2427-41fb-aad1-6c563296faf6
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1KY_jqa2yPLBEBa-3TG77zs4ak2zQLGul4eexxCueyI
+    short-id: f087eb07da743e94
+  servername: github.com
+  client-fingerprint: chrome
+proxy-groups:
+- name: PROXIES
+  type: select
+  proxies:
+  - AUTO
+  - 🇨🇿 捷克 (Czech) 01 - xiaohe
+  - 🇨🇿 捷克 (Czech) 02 - xiaohe
+- name: AUTO
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  proxies:
+  - 🇨🇿 捷克 (Czech) 01 - xiaohe
+  - 🇨🇿 捷克 (Czech) 02 - xiaohe
+rules:
+- MATCH,PROXIES
