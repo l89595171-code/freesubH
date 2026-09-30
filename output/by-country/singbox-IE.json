@@ -6,6 +6,58 @@
     {
       "type": "vless",
       "tag": "🇮🇪 爱尔兰 (Ireland) 01 - xiaohe",
+      "server": "188.114.97.6",
+      "server_port": 8080,
+      "uuid": "20e295db-a6af-4006-bfd6-91453f169968",
+      "transport": {
+        "type": "ws",
+        "path": "/eyJqdW5rIjoiSFM1N0lLQmx2UU1qRzlnTiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+        "headers": {
+          "Host": "057.electrocellco-cf-057.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇪 爱尔兰 (Ireland) 02 - xiaohe",
+      "server": "172.67.131.125",
+      "server_port": 443,
+      "uuid": "8d0f652c-3caa-4570-a138-668364f3d25e",
+      "tls": {
+        "enabled": true,
+        "server_name": "sqqfq0vy-l4v0qa0zlxnjd79-ykvkw.mrmamali.workers.dev",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vl/zInkY7qcXuM6P1AZTQ?ed=2560",
+        "headers": {
+          "Host": "sqqfq0vy-l4v0qa0zlxnjd79-ykvkw.mrmamali.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇪 爱尔兰 (Ireland) 03 - xiaohe",
+      "server": "104.21.32.1",
+      "server_port": 443,
+      "uuid": "0836463b-214f-4af6-aa85-85a56a62388e",
+      "tls": {
+        "enabled": true,
+        "server_name": "d2127a49-flat-wood-c4b5.milia-akbarpoor.workers.dev",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/kdbyvl5fp0ydted8?ed=2560",
+        "headers": {
+          "Host": "d2127a49-flat-wood-c4b5.milia-akbarpoor.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇪 爱尔兰 (Ireland) 04 - xiaohe",
       "server": "3.9.135.156",
       "server_port": 51847,
       "uuid": "391a01e9-b664-407b-9158-610fab3f5920",
@@ -25,18 +77,77 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇮🇪 爱尔兰 (Ireland) 05 - xiaohe",
+      "server": "104.21.83.106",
+      "server_port": 443,
+      "uuid": "8c67c0c5-9ed8-4c7d-8e13-b1008b32ec52",
+      "tls": {
+        "enabled": true,
+        "server_name": "einiorufwu6qe0p5fud9moci2i8.dbwyt3mzulwfqoqe2ehpst3vxlr.workers.dev",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vl/o4uUi3sPnbWX6BR7AFbW4f?ed=2560",
+        "headers": {
+          "Host": "einiorufwu6qe0p5fud9moci2i8.dbwyt3mzulwfqoqe2ehpst3vxlr.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇪 爱尔兰 (Ireland) 06 - xiaohe",
+      "server": "188.114.97.6",
+      "server_port": 443,
+      "uuid": "b4a16091-a25d-4d33-aee3-f5ae04f34b14",
+      "tls": {
+        "enabled": true,
+        "server_name": "blue-brook-cc73.karren391.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/eyJqdW5rIjoiRjJEdlF3U251aCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE0Ni4xMDMuMTEzLjE1OCIsIjEwMy45Ny44OC4xMzMiLCIxOTQuMTgwLjE4OC4yNDEiLCIxMTYuMjAyLjEzMi4yMDUiXX0=",
+        "headers": {
+          "Host": "blue-brook-cc73.karren391.workers.dev"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇪 爱尔兰 (Ireland) 01 - xiaohe"
+        "🇮🇪 爱尔兰 (Ireland) 01 - xiaohe",
+        "🇮🇪 爱尔兰 (Ireland) 02 - xiaohe",
+        "🇮🇪 爱尔兰 (Ireland) 03 - xiaohe",
+        "🇮🇪 爱尔兰 (Ireland) 04 - xiaohe",
+        "🇮🇪 爱尔兰 (Ireland) 05 - xiaohe",
+        "🇮🇪 爱尔兰 (Ireland) 06 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇪 爱尔兰 (Ireland) 01 - xiaohe"
+        "🇮🇪 爱尔兰 (Ireland) 01 - xiaohe",
+        "🇮🇪 爱尔兰 (Ireland) 02 - xiaohe",
+        "🇮🇪 爱尔兰 (Ireland) 03 - xiaohe",
+        "🇮🇪 爱尔兰 (Ireland) 04 - xiaohe",
+        "🇮🇪 爱尔兰 (Ireland) 05 - xiaohe",
+        "🇮🇪 爱尔兰 (Ireland) 06 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
