@@ -27,7 +27,7 @@ proxies:
     public-key: dSSDPTK6AHfAdRAXD9i4rzqcNIY65RxlF25UyCKdiyo
     short-id: fa
   servername: yahoo.com
-  client-fingerprint: random
+  client-fingerprint: qq
 - name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - xiaohe
   server: 89.218.15.90
   port: 10002
@@ -44,7 +44,7 @@ proxies:
     headers:
       Host: kz1.vpnjantit.com
 - name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - xiaohe
-  server: 3h-kazakhstan1.09vpn.com
+  server: 38.107.234.57
   port: 80
   udp: true
   type: vmess
@@ -55,6 +55,71 @@ proxies:
   ws-opts:
     path: /vmess/
 - name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - xiaohe
+  server: 38.107.234.57
+  port: 80
+  udp: true
+  type: vmess
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /vmess/
+    headers:
+      Host: 3h-kazakhstan1.09vpn.com
+- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 06 - xiaohe
+  server: 38.107.234.57
+  port: 80
+  udp: true
+  type: vmess
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /vmess/
+    headers:
+      Host: google.com
+- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 07 - xiaohe
+  server: 38.107.234.57
+  port: 80
+  udp: true
+  type: vmess
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /vmess/
+    headers:
+      Host: 3h-kazakhstan1.09vpn.com
+- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 08 - xiaohe
+  server: 38.107.234.57
+  port: 80
+  udp: true
+  type: vmess
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /vmess/
+    headers:
+      Host: 38.107.234.57
+- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 09 - xiaohe
+  server: 38.107.234.57
+  port: 80
+  udp: true
+  type: vmess
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /vmess/
+    headers:
+      Host: viber.com
+- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 10 - xiaohe
   server: 178.236.16.98
   port: 35728
   udp: true
@@ -65,7 +130,7 @@ proxies:
     public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
     short-id: 69a2
   servername: yahoo.com
-  client-fingerprint: random
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -76,6 +141,11 @@ proxy-groups:
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - xiaohe
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - xiaohe
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - xiaohe
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 06 - xiaohe
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 07 - xiaohe
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 08 - xiaohe
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 09 - xiaohe
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 10 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -86,5 +156,10 @@ proxy-groups:
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - xiaohe
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - xiaohe
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - xiaohe
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 06 - xiaohe
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 07 - xiaohe
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 08 - xiaohe
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 09 - xiaohe
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 10 - xiaohe
 rules:
 - MATCH,PROXIES
